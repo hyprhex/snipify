@@ -1,0 +1,16 @@
+{{define "base"}}
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{template "title" .}} - Snipify</title>
+  </head>
+  <body>
+    <header>
+      <h1><a href="/">Snipify</a></h1>
+    </header>
+    <main>{{template "main" .}}</main>
+    <footer>Powered by <a href="https://hyprhex.me">Hyprhex</a></footer>
+  </body>
+</html>
+{{end}}
